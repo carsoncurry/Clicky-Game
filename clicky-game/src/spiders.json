@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Peter Parker",
+        "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/10/spider-verse-peter-parker-header.jpg",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Miles Morales",
+        "image": "https://www.slashfilm.com/wp/wp-content/images/spiderman-intothespiderverse-hoodie.jpg",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Gwen Stacy",
+        "image": "https://vignette.wikia.nocookie.net/marvelmovies/images/c/c0/Gwen_Stacy_ISV.png/revision/latest?cb=20180915144737",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Spider-Man Noir",
+        "image": "https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5bea0dd88a922d8bd68f0a13/1542065628446/?format=2500w",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "Peni Parker",
+        "image": "https://nerdist.com/wp-content/uploads/2018/10/PeniParker.png",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "Spider-Ham",
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2018/12/12/12-spider-ham.w700.h700.jpg",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Spider-Man 2099",
+        "image": "https://vignette.wikia.nocookie.net/p__/images/0/02/Superior_Spider-Man_Vol_1_17_Coipel_Variant_Textless.jpg/revision/latest?cb=20140314174441&path-prefix=protagonist",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name": "Spider-Man '67",
+        "image": "https://www.thewrap.com/wp-content/uploads/2018/12/spider-man-pointing-meme-spider-man-into-the-spider-verse-miguel-ohara-oscar-isaac.jpg",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name": "Spider-Man Japan",
+        "image": "http://static.comicvine.com/uploads/original/11113/111130441/3378910-080511_mcmillaninternal.jpg",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name": "Spider-Punk",
+        "image": "https://vignette.wikia.nocookie.net/marveldatabase/images/0/03/Edge_of_Spider-Geddon_Vol_1_1_Textless.jpg/revision/latest?cb=20180523051009",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name": "Spider-Woman",
+        "image": "http://www.multiversitycomics.com/wp-content/themes/mvc/images/timthumb.php?src=http://multiversitystatic.s3.amazonaws.com/uploads/2014/12/SpiderWoman-cover.jpg&q=95&w=593&zc=1&a=t",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name": "Scarlet Spider",
+        "image": "https://i0.wp.com/superiorspidertalk.com/wp-content/uploads/2017/06/brss1.png?fit=925%2C360&ssl=1",
+        "count": 0
+    }
+]
