@@ -1,24 +1,14 @@
 import React from "react";
 import "./style.css";
 
-function SpiderCard(props) {
-    return (
-        <div className="card">
+const SpiderCard = props => (
+    <div className="container col-md-12">
+        <div className="card" onClick={() => props.clickCount(props.id)}>
             <div className="img-container">
-                <img alt={props.name} src={props.image} />
-            </div>
-            <div className="content">
-                <ul>
-                    <li>
-                        <strong>Name:</strong> {props.name}
-                    </li>
-                    <li>
-                        <strong>Powers:</strong> {props.powers}
-                    </li>
-                </ul>
+                <img className="spider-pic" alt={props.name} title={props.name} src={props.image} />
             </div>
         </div>
-    )
-}
+    </div>
+);
 
-export default Card;
+export default SpiderCard;
