@@ -7,4 +7,15 @@ html, body, #root {
   padding: 0;
   margin: 0;
   height: 100%;
+  background-image: url("./Images/417468-PEAT5B-229.jpg");
+  /* Background vector created by Freepik */
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("./Fonts/Sister\ Spray.ttf");
+}
+
+html {
+  font-family: "myFont", "serif"
 }

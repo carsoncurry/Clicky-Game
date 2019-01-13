@@ -1,15 +1,10 @@
-.container {
-  position: relative;
-}
-
 .card {
-  background: white;
+  background: none;
   border-radius: 2px;
   height: 200px;
   width: 200px;
   margin: 1rem;
-  position: relative;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  box-shadow: 0 3px 6px royalblue, 0 3px 6px royalblue;
   float: left;
 }
 
@@ -43,4 +38,5 @@
 
 .card:hover {
   cursor: pointer;
+  display: block;
 }

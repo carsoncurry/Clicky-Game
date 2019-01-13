@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SpiderCard from "./Components/SpiderCard/index";
 import Wrapper from "./Components/Wrapper/index";
 import Title from "./Components/Title/index";
+import Instructions from "./Components/Instructions/index";
 import Footer from "./Components/Footer/index";
 import spiders from "./spiders.json";
 
@@ -21,7 +22,7 @@ class App extends Component {
     this.state.spiders.forEach(spider => {
       spider.count = 0;
     });
-    alert(`Game Over :( \nscore: ${this.state.score}`);
+    alert(`GAME OVER! Try again to send the Spiders home! \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
@@ -36,6 +37,8 @@ class App extends Component {
           });
           this.state.spiders.sort(() => Math.random() - 0.5)
           return true;
+        } else if(this.state.score === 12) {
+          this.gameWon();
         } else {
           this.gameOver();
         }
@@ -47,6 +50,8 @@ class App extends Component {
     return (
       <Wrapper>
         <Title score={this.state.score} highscore={this.state.highscore}></Title>
+        <Instructions />
+        <div class="container justify-content-center col-md-12">
           {this.state.spiders.map(spider => (
             <SpiderCard
               clickCount={this.clickCount}
@@ -55,6 +60,7 @@ class App extends Component {
               image={spider.image}
             />
           ))}
+        </div>
         <Footer />
       </Wrapper>
     );

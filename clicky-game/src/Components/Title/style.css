@@ -1,15 +1,13 @@
-.jumbotron {
-    background: blue;
-    width: 100%;
-    height: 200px;
+.navbar-brand, li {
+    color: red;
 }
 
-.title {
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
+a:hover {
     color: white;
-    margin-bottom: 50px;
+}
+
+.spider-signal {
+    margin-right: 20px;
 }
 
 .scores {

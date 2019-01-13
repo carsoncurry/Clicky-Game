@@ -2,18 +2,19 @@ import React from "react";
 import "./style.css";
 
 const Title = props => (
-    <div className="jumbotron col-12">
-        <div className="title">{props.children}</div>
-        <div className="row col-12 justify-content-center">
-            <h1 className="text-light">Welcome to the Spider-Verse!</h1>
-        </div>
-        <div className="row col-12 justify-content-center">
-            <div className="scores text-right">
-                <h3>Score: {props.score} |
-                    Highscore: {props.highscore}
-                </h3>
-            </div>
-        </div>
+    <div className="navbar bg-dark">
+        <a href="/" className="navbar-brand">
+            <img src="http://franverona.com/loadgo/logos/spiderman.png" className="spider-signal" height="50px" alt="Spider Signal"></img>
+            Welcome to the Spider-Verse!
+        </a>
+        <ul className="navbar-nav scores">
+            <li class="nav-item">
+                Score: {props.score}
+            </li>
+            <li class="nav-item">
+                Highscore: {props.highscore}
+            </li>
+        </ul>
     </div>
 );
 
