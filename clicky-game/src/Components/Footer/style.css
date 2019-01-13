@@ -16,6 +16,7 @@
     color: white;
     margin-left: 15px;
     margin-right: 15px;
+    font-family: 'Gochi Hand', cursive;
 }
 
 .github-link:hover, .portfolio-link:hover {

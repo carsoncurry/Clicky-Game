@@ -1,5 +1,6 @@
 .navbar-brand, li {
     color: red;
+    font-family: 'Permanent Marker', cursive;
 }
 
 a:hover {
