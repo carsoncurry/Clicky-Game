@@ -39,6 +39,7 @@ class App extends Component {
           return true;
         } else if(this.state.score === 12) {
           this.gameWon();
+          alert(`You found all twelve Spiders! The Spider-Verse is saved!`);
         } else {
           this.gameOver();
         }
